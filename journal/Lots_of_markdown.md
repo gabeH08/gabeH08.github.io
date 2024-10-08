@@ -23,7 +23,6 @@ obese skinny rat
 
 [This is the text that is displayed](www.example.com)
 ![This is the text](/../image/dog.jpg)
-/Users/1007168/Desktop/website/smiling\ dog\ project.jpg
 
 
 ## My favortite cartoon cats
