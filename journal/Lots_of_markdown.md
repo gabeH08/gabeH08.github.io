@@ -22,4 +22,15 @@ obese skinny rat
 ## Here's a Link
 
 [This is the text that is displayed](www.example.com)
-![This is the text](https://www.google.com/search?bih)
+![This is the text](https://www.pinterest.com/pin/332914597465051219/)
+
+
+## My favortite cartoon cats
+|Name     | Facts        |
+|---------|-------------- 
+|Garfield |Likes Lasagna |
+|Tom      | Chases Jerry |
+|Meowth   | That's right |
+
+
+
