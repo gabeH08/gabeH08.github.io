@@ -22,7 +22,7 @@ obese skinny rat
 ## Here's a Link
 
 [This is the text that is displayed](www.example.com)
-![This is the text](/../image/dog.jpg)
+![This is the text](../image/dog.jpg)
 
 
 ## My favortite cartoon cats
