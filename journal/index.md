@@ -6,5 +6,3 @@
 
 ## Lists of Journal entries
 
-- [My journey with terminal](entries/README.md)
-- [Algebra ll Journal](entries/Math.md)
