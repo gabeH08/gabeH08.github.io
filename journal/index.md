@@ -8,6 +8,6 @@
 
 
 - [My Journey with terminal](entries/README.md)
-- [Algebra ll Journal(entries/Math.md)
+- [Algebra ll Journal](entries/Math.md)
 
 
