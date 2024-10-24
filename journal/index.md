@@ -4,7 +4,7 @@
 
 
 
-## Lists of Journal entries
+## Lists of Journal assignments
 
 
 - [My Journey with terminal](README.md)
