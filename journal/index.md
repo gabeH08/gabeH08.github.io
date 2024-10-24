@@ -7,7 +7,7 @@
 ## Lists of Journal entries
 
 
-- [My Journey with terminal](/README.md)
-- [Algebra ll Journal](/Math.md)
+- [My Journey with terminal](README.md)
+- [Algebra ll Journal](Math.md)
 
 
