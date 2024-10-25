@@ -10,6 +10,8 @@
 - [Website #2 Dicks Sporting Goods](https://www.dickssportinggoods.com/a/referee-supplies-0axz00a.html)
 - [Website #3 RefReps](https://www.refreps.com/)
 
+ - How these websites helped me with my word press project is that I used the font and i really liked on how it looked.
+
 
 
 ## My Experience with Wordpress
