@@ -9,7 +9,7 @@
 
 - [My Journey with terminal](README.md)
 - [Algebra ll Journal](Math.md)
-- [Word Press Project](https://refereeequipment.wordpress.com/)
+- [Word Press Project website and reflection](projectReflection.md)
 
 
 
