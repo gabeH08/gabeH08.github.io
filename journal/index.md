@@ -9,5 +9,7 @@
 
 - [My Journey with terminal](README.md)
 - [Algebra ll Journal](Math.md)
+- [Word Press Project](https://refereeequipment.wordpress.com/)
+
 
 
