@@ -1,4 +1,4 @@
-# Word Press Project Reflection
+# Word Press Project Website and Reflection
 
 [My website](https://refereeequipment.wordpress.com)
 
