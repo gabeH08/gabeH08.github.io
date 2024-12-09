@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Playing with CSS Cascade</title>
+        <script src="js/init.js"></script>
+<style>
+body{
+    background-color:#cccccc;
+    font-size:12px;
+}
+#first{
+    background-color:pink;
+    font-size:12px;
+    width:50%;
+}
+#second{
+    background-color:purple;
+    width:80%;
+    height:200px;
+}
+#first ul li::first{
+    font-size:0.5em;
+}
+
+</style>
+    </head>
+    <body>
+        <header>
+            <h1>Tis the season</h1>
+        </header>
+
+        <main>
+            <div id="first">
+                <div id="second">
+                <ul>
+                    <li>O</li>
+                    <li>B</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>C</li>
+                    <li>D</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <hr>
+            <p>Contact me!(Jokes)</p>
+        </footer>
+
+
+    </body>
+</html>
