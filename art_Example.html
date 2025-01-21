@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>10x10 Grid with CSS Grid</title>
+  <style>
+    body {
+      height: 100vh;
+      margin: 0;
+      background-color: black;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      grid-template-rows: repeat(10, 1fr);
+      width: 100vmin;
+      height: 100vmin;
+      margin:auto;
+    }
+
+    .grid-container div {
+      background-color:purple;
+      border: 0.1px solid black; /* Optional border for better visual separation */
+    }
+
+    /* Color specific squares */
+    .grid-container div:nth-child(1),
+    .grid-container div:nth-child(5),
+    .grid-container div:nth-child(7){
+        background-color:black;
+    }
+
+    /* Color every 3rd square */
+    .grid-container div:nth-child(1n) {
+      background-color: LightSkyBlue;
+    }
+
+    /*
+        We can use this syntax to select a range:
+        - `div:nth-child(n+41)`: Selects all `div` elements that are the 41st child or later.
+        - `:nth-child(-n+50)`: Selects all `div` elements that are the 50th child or earlier.
+    */
+    .grid-container div:nth-child(n+31):nth-child(-n+70) {
+      background-color:white;
+    }
+     .grid-container div:nth-child(n+44):nth-child(-n+47) {
+      background-color:yellow;
+    }
+
+      .grid-container div:nth-child(n+54):nth-child(-n+57) {
+      background-color:yellow;
+    }
+       .grid-container div:nth-child(n+35):nth-child(-n+36) {
+      background-color:yellow;
+    }
+       .grid-container div:nth-child(n+65):nth-child(-n+66) {
+      background-color:yellow;
+    }
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <!-- 100 divs -->
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+  </div>
+</body>
+</html>
