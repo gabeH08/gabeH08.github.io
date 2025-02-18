@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ice cream party</title>
+<script src="js/init.js"></script>
+
+
+</head>
+<style>
+body{
+    background-color:grey;
+    color: white;
+     font-size:25px;
+    font-family: "Trebuchet MS";
+}
+</style>
+    <body>
+	<h1>Your invited to an amazing Ice Cream Party!!</h1>
+	<form action="https://httpbin.org/post" method="post">
+	<label for="email">What is your email adress?</label><br>
+	<input type="email" name="email" id="email" required><br>
+	<label for="phone">What is your phone number?</label><br>
+	<input type="number" name="phone" id="phone" required><br>
+	<label for="people">How many people will you bring to the party?</label><br>
+	<input type="number" name="people" id="people" required><br>
+	<p>
+	   What is your favorite flavor of ice cream?
+	</p>
+	<label>
+	<input type="radio" name="icecream" value="Vanilla"> Vanilla
+       </label><br>
+       <label>
+           <input type="radio" name="icecream" value="Chocolatechip"> Chocolate Chip
+       </label><br>
+       <label>
+           <input type="radio" name="icecream" value="Strawberry"> Strawberry
+       </label><br>
+       <label>
+           <input type="radio" name="icecream" value="other"> Other
+       </label><br>
+	<p>Which toppings do you like?</p>
+	<label>
+		<input type="checkbox" name="toppings" value="Sprinkles"> Sprinkles
+	</label><br>
+	<label>
+               <input type="checkbox" name="toppings" value="Gummybear"> Gummy Bears
+       </label><br>
+	<label>
+               <input type="checkbox" name="toppings" value="Chocolatechip"> Chocolate Chips
+       </label><br>
+	<label>
+               <input type="checkbox" name="toppings" value="Magicshell"> Magic Shell
+       </label><br>
+	<label>
+               <input type="checkbox" name="toppings" value="other"> Other
+       </label><br><br>
+	<label for="fun">What kind of entertainment should we have at the party?</label><br>
+	<select id="fun" name="fun">
+		<option value="Balloonanimals">Balloon Animals</option>
+		<option value="Bouncehouse">Bounce House</option>
+		<option value="DJ">DJ</option>
+		<option value="Cornhole">Cornhole</option>
+		<option value="Clown">Clown</option>
+		<option value="Facepainting">Face Painting</option>
+		<option value="Magician">Magician</option>
+                <option value="none">None</option>
+	</select><br><br>
+	<label for="comments">Do you have any other suggestions or comments?</label><br>
+	<input name="comments" id="comments"><br><br>
+	<input type="submit" name="submit">
+	</form>
+</body>
+</html>
